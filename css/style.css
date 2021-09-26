@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.section-1{
+    width: 100%;
+    height: 17vh;
+    background-color: rgb(252, 250, 248);
+}
+.navbar{
+    display: flex;
+    text-align: center;
+    
+}
+.navbar img{
+    height: 90px;
+    width: 110px;
+    border-radius: 35px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.small-container{
+    border-left: 9px solid orange;
+    border-right: 1px solid rgb(27, 27, 27);
+    border-bottom: 1px solid rgb(30, 30, 31);
+    box-shadow: 1px 1px 4px black;
+    margin-top: 15px;
+    margin-bottom: 13px;
+    margin-left: 31px;
+    margin-right: 38px;
+}
+.small-container .para-1{
+    font-size: 29px;
+
+}
+.small-container .para-2{
+    font-size: 39px;
+    padding: 3px;
+}
+.para-3{
+    height: 64px;
+    width: 131px;
+    margin-top: 30px;
+    font-size: 22px;
+ }
+ .navigation{
+    margin-left: 115px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    margin-top: 25px;
+    font-size: 15px;
+ }
+ .navigation li{
+     padding: 18px;
+ }
+ .navigation li:hover{
+    cursor: pointer;
+}
+ .btn{
+     border: 2px sild rgb(240, 176, 16);
+     border-radius: 5px;
+     background-color: rgb(240, 176, 16);
+     font-size: 25px;
+     padding: 2px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin-right: 550px;
+ }
+ button :hover{
+     cursor: pointer;
+ }
+
+ .para-4{
+     color: rgb(61, 124, 240);
+     height: 64px;
+    width: 131px;
+    margin-left: 30px;
+    margin-top: 60px;
+    font-size: 22px;
+
+ }
+ /* -----------------------------home page---------------------- */
+ .section-2{
+     border: 2px solid black;
+     width: 100%;
+     height: 80vh;
+     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/farshad-rezvanian-Eelegt4hFNc-unsplash.jpg");
+     background-position:center;
+     background-size: cover;
+ }
+ .home-content{
+     color: white;
+     text-align: center;
+     margin-top: 250px;
+ }
+ .home-content h3{
+     font-size: 25px;
+ }
+ .home-content h1{
+     font-size: 75px;
+ }
+ /* -------------------------------3rd section --------------------------- */
+ .Our-details{
+     width: 100%;
+     height: 80vh;
+     background-color: rgb(220, 233, 241);
+     display: flex;
+ }
+ .nav-1{
+     height: 80vh;
+     width: 50%;
+ }
+ .nav-2{
+     height: 80vh;
+     width: 50%;
+ }
+ .heading-3{
+     margin:80px ;
+    
+     font-size: 29px;
+ }
+ .nav-1 p{
+     margin: 110px;
+     margin-left: 150px;
+
+ }
+ .nav-1 img{
+     height: 40px;
+     width: 45px;
+ }
+ .nav-2 p{
+     margin: 120px;
+     
+ }
+ .nav-2 p img{
+     width: 60px;
+     height: 50px;
+ }
+ /* ----------------------------4TH SECTION ------------------- */
+ .evolution{
+     
+     width: 100%;
+     height: 130vh;
+     background-color: rgb(204, 224, 243);
+ }
+ .evolution p{
+     text-align: center;     
+     font-size: 150px;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .evolution h1{
+     text-align: center;
+ }
+ .evolution .para-2{
+     margin-top: 80px;
+     margin-left: 250px;
+     margin-right: 250px;
+     font-size: 20px;
+ }
+ .container-1{
+     margin-left: 13%;
+     height: 59vh;
+     width: 160vh;
+     display: flex;
+     margin-top: 20px;
+     box-shadow: 2px 2px 3px 4px black;
+     border-radius: 10px;
+
+ }
+ .container-1-1{
+     width: 80vh;
+     height:60vh ;
+     
+ }
+ .container-1-2{
+    width: 80vh;
+    height:60vh ;
+ }
+ .container-1-1-1{
+    width: 80vh;
+    height:30vh ;
+    background-color: rgb(204, 224, 243);
+
+ }
+ .heading-1{
+     color: rgb(40, 110, 241);
+ }
+ 
+ .heading-2{
+    color: rgb(32, 84, 241);
+}
+.para-1-1{
+    margin-top: 30px;
+}
+.container-1-1-2{
+    display: flex;
+    background-color: rgb(74, 74, 243);
+}
+.para-1-1-1{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    color: white;
+    
+}
+.col-1{
+    width: 80vh;
+    height:30vh ;
+    display: flex;
+    background-color: rgb(238, 166, 10);
+    }
+.col-1-1{
+    width:80vh ;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+}
+.col-1-2{
+    height: 30vh;
+}
+/* ----------------------------------------------------------------SECTION 5------------------------- */
+.SECTION-5{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(204, 224, 243);
+}
+.heading-5-1{
+    margin-left: 110px;
+    color: black;
+    font-size: 35px;
+}
+container-5{
+    display: flex;
+    border: 2px solid black;
+    height: 40vh;
+    width: 80%;
+
+
+}
+.heading-5-2{
+    margin-left:110px ;
+
+}
+    /*---------------------section 6------------------------*/
+.section-6{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(224, 242, 243);
+
+}
+.heading-6-1{
+    text-align: center;
+    
+  
+}
+.heading-6-2{
+    text-align:center ;
+    font-size: 25px;
+    margin: 20px;
+}
+.container-6{
+    height: 25vh;
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+    
+}
+.cintainer-6-1{
+    height: 25vh;
+    width: 16.3%;
+    margin-right: 6px;
+    
+   
+}
+.cintainer-6-1 img{
+    height: 25vh;
+    width: 27vh;
+    border-radius: 10px;
+}
+.container-6-2{   
+    display: flex;
+    margin-top: 50px;
+}
+.container-6-2-1{
+    margin: 20px;
+    width: 50%;
+    margin-left: 10%;
+}
+.container-6-2-2 P{
+    
+    background-color: white;
+    padding: 30px;
+    box-shadow: 2px 3px 7px skyblue;    
+}
+.container-6-2-2 P button{
+    padding: 10px;
+    background-color: slateblue;
+}
+.container-6-2-2 P button a{
+    color: white;
+    text-decoration: none;
+    
+}
+.container-7{
+    
+    height: 25vh;
+    width: 80%;
+    display: flex;
+    margin-left: 18%;
+ 
+}
+.container-7-1{
+    height: 25vh;
+    width: 27vh;
+    border-radius: 10px;
+    
+}
+.cintainer-7-1 img{
+    height: 25vh;
+    margin: 10px;
+    width: 27vh;
+    border-radius: 10px;
+   
+}
+.heading-7-3{
+    text-align:center ;
+    margin-top: 60PX;
+}
